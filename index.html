@@ -8,7 +8,8 @@
         }
         .list{
             list-style-type: none;
-            padding-right: 20px;
+            padding-right: 30px;
+            font-size: 18px;
         }
         li{
             float:right;
@@ -28,30 +29,96 @@
         a:active{
             color:black;
         }
-        .text{
+        .title{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 100px;
+            padding-left: 250px;
+        }
+        .line{
+            padding-left: 250px;
+        }
+        .title2{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 50px;
+            padding-left: 250px;
+        }
+        .line2{
+            padding-left: 250px;
+        }
+        .form{
             padding-top: 100px;
             text-align: center;
         }
-
+        .video{
+            text-align: center;
+        }
+        .title3{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .foot{
+            list-style-type: none;
+            padding-right: 100px;
+            font-size: 18px;
+        }
+        .end{
+            float:right;
+            padding-right: 25px;
+            background-color: grey;
+            height: auto;
+            padding-left: 300px;
+        }
+        #submit{
+            background-color: yellow;
+            font-size: 16px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="head">
-        <h1>Original Trombones</h1>
+        <h1 class="main">Original Trombones</h1>
         <ul class="list">
             <li><a href="#How it works">How it works</a></li>
             <li><a href="#Pricing">Pricing</a></li>
             <li><a href="#features">Features</a></li>
         </ul>
     </div>
+    <div class="form">
+        <h2 class="title3">Handcrafted, home-made masterpieces</h2>
+        <form>
+            <input name="email" id="email" type="email" placeholder="Enter your email address"><br>
+            <br>
+            <input id="submit" type="submit" value="GET STARTED">
+
+        </form>
+
+    </div>
     <div class="text">
-        <h2>Premium Materials</h2>
-        <p>Our trombones use the shiniest 
+        <h2 class="title">Premium Materials</h2>
+        <p class="line">Our trombones use the shiniest 
             brass which is 
             sourced locally. This will 
             increase the longevity of your purchase.</p>
-
+        <h2 class="title2">Fast Shipping</h2>
+        <p class="line2">We make sure you recieve your trombone as soon as we have 
+            finished making it. We also provide free returns if you are not satisfied.</p>
+        <h2 class="title2">Quality Assurance</h2>
+        <p class="line2">For every purchase you make, we will ensure there are no damages
+                 or faults and we will check and test the pitch of your instrument.</p>
     </div>
-    
+    <div class="video">
+        <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+         gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div >
+        <ul class="foot">
+            <li class="end"><a href="#terms">Terms</a></li>
+            <li class="end"><a href="#contact">Contact</a></li>
+            <li class="end"><a href="#privacy">Privacy</a></li>     
+        </ul>
+    </div>
+    <div class="big"></div>
 </body>
 </html>
